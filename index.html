@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Explore os personagens dos Simpsons em um arquivo digital de Springfield."
+    >
+
+    <title>Springfield Archive | Os Simpsons</title>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- LINK DE ACESSIBILIDADE -->
+
+    <a href="#personagens" class="skip-link">
+        Ir para os personagens
+    </a>
+
+
+    <!-- =====================================
+         CABEÇALHO
+    ====================================== -->
+
+    <header class="site-header">
+
+        <div class="container header-content">
+
+            <a href="#inicio" class="brand">
+
+                <span class="brand-icon">S</span>
+
+                <span class="brand-name">
+                    SPRINGFIELD
+                    <small>ARCHIVE</small>
+                </span>
+
+            </a>
+
+
+            <nav class="main-nav" aria-label="Menu principal">
+
+                <a href="#inicio">Início</a>
+
+                <a href="#personagens">Personagens</a>
+
+                <a href="#sobre">Sobre o projeto</a>
+
+            </nav>
+
+
+            <a href="#personagens" class="header-button">
+
+                Explorar arquivo
+
+                <span>↗</span>
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =====================================
+             HERO
+        ====================================== -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-decoration decoration-one"></div>
+
+            <div class="hero-decoration decoration-two"></div>
+
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <span class="hero-label">
+                        ★ UM UNIVERSO DE PERSONAGENS
+                    </span>
+
+
+                    <h1>
+                        BEM-VINDO
+                        <br>
+                        A <span>SPRINGFIELD.</span>
+                    </h1>
+
+
+                    <p>
+                        Relembre personagens, histórias e momentos
+                        de um dos desenhos mais marcantes de todos
+                        os tempos. Explore o arquivo e descubra
+                        quem faz parte desse universo.
+                    </p>
+
+
+                    <div class="hero-actions">
+
+                        <a href="#personagens" class="button button-dark">
+
+                            Explorar personagens
+
+                            <span>→</span>
+
+                        </a>
+
+
+                        <a href="#sobre" class="button button-light">
+
+                            Conheça o projeto
+
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-note">
+
+                        <span class="note-dot"></span>
+
+                        Dados carregados diretamente de uma API
+
+                    </div>
+
+                </div>
+
+
+                <!-- ILUSTRAÇÃO DECORATIVA -->
+
+                <div class="hero-art" aria-hidden="true">
+
+                    <div class="art-circle"></div>
+
+
+                    <div class="donut">
+
+                        <div class="donut-hole"></div>
+
+                        <span class="donut-sprinkle sprinkle-one"></span>
+
+                        <span class="donut-sprinkle sprinkle-two"></span>
+
+                        <span class="donut-sprinkle sprinkle-three"></span>
+
+                        <span class="donut-sprinkle sprinkle-four"></span>
+
+                    </div>
+
+
+                    <div class="art-sticker sticker-top">
+                        EST. 1987
+                    </div>
+
+
+                    <div class="art-sticker sticker-bottom">
+                        DOH!
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             INDICADORES
+        ====================================== -->
+
+        <section class="stats-section">
+
+            <div class="container stats-content">
+
+
+                <div class="stat-item">
+
+                    <strong
+                        class="stat-number"
+                        id="total-characters"
+                    >
+                        1.182
+                    </strong>
+
+                    <span class="stat-label">
+                        Personagens no arquivo
+                    </span>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <strong class="stat-number">
+                        1987
+                    </strong>
+
+                    <span class="stat-label">
+                        Ano da primeira aparição
+                    </span>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <strong class="stat-number">
+                        100%
+                    </strong>
+
+                    <span class="stat-label">
+                        Consulta dinâmica via API
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             PERSONAGENS
+        ====================================== -->
+
+        <section class="characters-section" id="personagens">
+
+            <div class="container">
+
+
+                <!-- TÍTULO DA SEÇÃO -->
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-label">
+                            O ARQUIVO DE SPRINGFIELD
+                        </span>
+
+
+                        <h2>
+                            Conheça os personagens
+                        </h2>
+
+
+                        <p>
+                            Explore os moradores de Springfield e
+                            descubra informações sobre cada um deles.
+                        </p>
+
+                    </div>
+
+
+                    <div class="character-counter">
+
+                        <span class="counter-icon">
+                            ✦
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Arquivo aberto
+                            </strong>
+
+                            <small>
+                                Personagens da API
+                            </small>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PESQUISA E FILTROS -->
+
+                <div class="toolbar">
+
+
+                    <div class="search-box">
+
+                        <span class="search-icon">
+                            ⌕
+                        </span>
+
+                        <input
+                            type="search"
+                            id="search-input"
+                            placeholder="Pesquisar personagem..."
+                            aria-label="Pesquisar personagem"
+                        >
+
+                    </div>
+
+
+                    <div class="filter-box">
+
+                        <label for="status-filter">
+                            Status:
+                        </label>
+
+
+                        <select id="status-filter">
+
+                            <option value="all">
+                                Todos
+                            </option>
+
+                            <option value="alive">
+                                Vivo
+                            </option>
+
+                            <option value="dead">
+                                Falecido
+                            </option>
+
+                            <option value="unknown">
+                                Desconhecido
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="button"
+                        class="favorites-button"
+                        id="favorites-button"
+                        aria-pressed="false"
+                    >
+
+                        <span class="favorite-label">
+                            ♡ Favoritos
+                        </span>
+
+                        <span id="favorites-count">
+                            0
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <p class="search-hint">
+                    A pesquisa e os filtros consideram os personagens
+                    carregados na página atual da API.
+                </p>
+
+
+                <!-- CARREGAMENTO -->
+
+                <div
+                    class="loading-message"
+                    id="loading-message"
+                    role="status"
+                    aria-live="polite"
+                >
+
+                    <span class="loader"></span>
+
+                    <p>
+                        Carregando personagens de Springfield...
+                    </p>
+
+                </div>
+
+
+                <!--
+                    IMPORTANTE:
+
+                    OS CARDS NÃO SÃO ESCRITOS MANUALMENTE NO HTML.
+
+                    O JAVASCRIPT CRIA E INSERE TODOS OS CARDS
+                    DINAMICAMENTE NESTE CONTAINER.
+                -->
+
+                <div
+                    class="characters-grid"
+                    id="characters-grid"
+                    aria-live="polite"
+                ></div>
+
+
+                <!-- PAGINAÇÃO -->
+
+                <div class="pagination">
+
+                    <button
+                        type="button"
+                        id="previous-button"
+                        class="pagination-button"
+                        disabled
+                    >
+                        ← Anterior
+                    </button>
+
+
+                    <span id="page-indicator">
+                        Página 1
+                    </span>
+
+
+                    <button
+                        type="button"
+                        id="next-button"
+                        class="pagination-button"
+                        disabled
+                    >
+                        Próxima →
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================
+             SOBRE O PROJETO
+        ====================================== -->
+
+        <section class="about-section" id="sobre">
+
+            <div class="container about-content">
+
+
+                <div class="about-decoration" aria-hidden="true">
+
+                    <span>★</span>
+
+                    <span>★</span>
+
+                    <span>★</span>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <span class="section-label">
+                        SOBRE O PROJETO
+                    </span>
+
+
+                    <h2>
+                        Muito além de um desenho.
+                    </h2>
+
+
+                    <p>
+                        Springfield Archive é um projeto acadêmico
+                        desenvolvido para explorar o universo dos
+                        Simpsons por meio de uma interface web
+                        interativa.
+                    </p>
+
+
+                    <p>
+                        As informações dos personagens são obtidas
+                        diretamente de uma API pública e apresentadas
+                        dinamicamente na página utilizando JavaScript.
+                    </p>
+
+                </div>
+
+
+                <div class="about-features">
+
+
+                    <div class="feature-item">
+
+                        <span class="feature-icon">
+                            01
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Dados reais
+                            </strong>
+
+                            <p>
+                                Informações obtidas por meio de
+                                uma API externa.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature-item">
+
+                        <span class="feature-icon">
+                            02
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Interface dinâmica
+                            </strong>
+
+                            <p>
+                                Cards criados automaticamente
+                                pelo JavaScript.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="feature-item">
+
+                        <span class="feature-icon">
+                            03
+                        </span>
+
+                        <div>
+
+                            <strong>
+                                Experiência responsiva
+                            </strong>
+
+                            <p>
+                                Layout adaptado para computadores
+                                e smartphones.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================
+         RODAPÉ
+    ====================================== -->
+
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+
+            <a href="#inicio" class="footer-brand">
+                SPRINGFIELD ARCHIVE
+            </a>
+
+
+            <p>
+                Projeto acadêmico de Web Programming for Front-End.
+            </p>
+
+
+            <p class="api-credit">
+
+                Dados fornecidos pela
+
+                <a
+                    href="https://thesimpsonsapi.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    The Simpsons API
+                </a>.
+
+                Projeto independente, sem vínculo oficial com a franquia.
+
+            </p>
+
+
+            <span class="copyright">
+                © 2026 Springfield Archive
+            </span>
+
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>
